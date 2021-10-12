@@ -8,7 +8,7 @@ public:
 	}
 	double evaluate()
 	{
-		assert(right->evaluate() != 0);
+		
 		return left->evaluate() / right->evaluate();
 	}
 };
